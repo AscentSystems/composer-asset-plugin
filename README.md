@@ -1,12 +1,12 @@
 NPM/Bower Dependency Manager for Composer
 =========================================
 
-[![Latest Version](https://img.shields.io/packagist/v/fxp/composer-asset-plugin.svg)](https://packagist.org/packages/fxp/composer-asset-plugin)
-[![Build Status](https://img.shields.io/travis/fxpio/composer-asset-plugin/master.svg)](https://travis-ci.org/fxpio/composer-asset-plugin)
-[![Coverage Status](https://img.shields.io/coveralls/fxpio/composer-asset-plugin/master.svg)](https://coveralls.io/r/fxpio/composer-asset-plugin?branch=master)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/fxpio/composer-asset-plugin.svg)](https://scrutinizer-ci.com/g/fxpio/composer-asset-plugin?branch=master)
+[![Latest Version](https://img.shields.io/packagist/v/ascent/composer-asset-plugin.svg)](https://packagist.org/packages/ascent/composer-asset-plugin)
+[![Build Status](https://img.shields.io/travis/AscentSystems/composer-asset-plugin/master.svg)](https://travis-ci.org/AscentSystems/composer-asset-plugin)
+[![Coverage Status](https://img.shields.io/coveralls/AscentSystems/composer-asset-plugin/master.svg)](https://coveralls.io/r/AscentSystems/composer-asset-plugin?branch=master)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/AscentSystems/composer-asset-plugin.svg)](https://scrutinizer-ci.com/g/AscentSystems/composer-asset-plugin?branch=master)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/0d67ca33-5a72-46b8-b109-cfbf95673fce.svg)](https://insight.sensiolabs.com/projects/0d67ca33-5a72-46b8-b109-cfbf95673fce)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/fxp/composer-asset-plugin.svg)](https://packagist.org/packages/fxp/composer-asset-plugin/stats)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/ascent/composer-asset-plugin.svg)](https://packagist.org/packages/ascent/composer-asset-plugin/stats)
 
 The Composer Asset Plugin allows you to manage project assets (css, js, etc.) in your `composer.json`
 without installing NPM or Bower.
@@ -17,14 +17,14 @@ This allows you to manage asset dependencies in a PHP based project very easily.
 > **Important:**
 >
 > The next major version of Composer Asset Plugin is so different, but also incompatible with the current version,
-> that it became a new project named [Foxy](https://github.com/fxpio/foxy).
+> that it became a new project named [Foxy](https://github.com/AscentSystems/foxy).
 >
 > Foxy is the new way to manage the assets of PHP libraries, because it works nativelly with all the features of
 > NPM or Yarn. However, this plugin will continue to be maintained by the community, without having new features.
 >
 > You can read [the reasons for this new version](https://github.com/yiisoft/yii2/issues/14297#issuecomment-327565136),
-> or [the difference between Foxy and Fxp Composer Asset Plugin](https://github.com/fxpio/foxy/blob/master/Resources/doc/faqs.md#what-is-the-difference-between-foxy-and-fxp-composer-asset-plugin),
-> but also [how does Foxy work](https://github.com/fxpio/foxy/blob/master/Resources/doc/faqs.md#how-does-the-plugin-work).
+> or [the difference between Foxy and Ascent Composer Asset Plugin](https://github.com/AscentSystems/foxy/blob/master/Resources/doc/faqs.md#what-is-the-difference-between-foxy-and-ascent-composer-asset-plugin),
+> but also [how does Foxy work](https://github.com/AscentSystems/foxy/blob/master/Resources/doc/faqs.md#how-does-the-plugin-work).
 
 ##### Features include:
 
@@ -106,7 +106,7 @@ The bulk of the documentation is located in `Resources/doc/index.md`:
 
 [Read the FAQs](Resources/doc/faqs.md)
 
-[Read the Release Notes](https://github.com/fxpio/composer-asset-plugin/releases)
+[Read the Release Notes](https://github.com/AscentSystems/composer-asset-plugin/releases)
 
 Installation
 ------------
@@ -123,10 +123,10 @@ This composer plugin is under the MIT license. See the complete license in:
 About
 -----
 
-Fxp Composer Asset Plugin is a [François Pluchino](https://github.com/francoispluchino) initiative.
-See also the list of [contributors](https://github.com/fxpio/composer-asset-plugin/contributors).
+Ascent Composer Asset Plugin is a [François Pluchino](https://github.com/francoispluchino) initiative.
+See also the list of [contributors](https://github.com/AscentSystems/composer-asset-plugin/contributors).
 
 Reporting an issue or a feature request
 ---------------------------------------
 
-Issues and feature requests are tracked in the [Github issue tracker](https://github.com/fxpio/composer-asset-plugin/issues).
+Issues and feature requests are tracked in the [Github issue tracker](https://github.com/AscentSystems/composer-asset-plugin/issues).

@@ -1,22 +1,22 @@
 {
-    "name": "fxp/composer-asset-plugin",
-    "description": "NPM/Bower Dependency Manager for Composer",
-    "keywords": ["npm", "bower", "dependency manager", "package", "asset", "composer", "nodejs"],
-    "homepage": "https://github.com/fxpio/composer-asset-plugin",
+    "name": "ascent/composer-asset-plugin",
+    "description": "Upgraded NPM/Bower Dependency Manager for Composer 2",
+    "keywords": ["npm", "bower", "dependency manager", "package", "asset", "composer", "composer2", "composer-plugin-api", "nodejs"],
+    "homepage": "https://github.com/AscentSystems/composer-asset-plugin",
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
-            "name": "François Pluchino",
-            "email": "francois.pluchino@gmail.com"
+            "name": "Zlatan Omerović",
+            "email": "zlatan.omerovic@flipkod.com"
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "composer-plugin-api": "^1.0"
+        "php": ">=7.3",
+        "composer-plugin-api": "^2.0"
     },
     "require-dev": {
-        "composer/composer": "^1.6.0"
+        "composer/composer": "^2.0.9"
     },
     "autoload": {
         "psr-4": {
